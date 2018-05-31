@@ -2,7 +2,7 @@
 Use [pddlstream](https://github.com/caelan/pddlstream) as the planning engine to cook a meal
 
 ## Settings
-All position are fixed. No motion planning or collision check. Just planning.
+All position are fixed. No motion planning or collision checking. Just planning.
 <img width="600" alt="plan map" src="https://github.com/jingxixu/lis-work/blob/master/pddl_examples/cook_meal/images/settings.png">
 
 ### Objects
