@@ -1,4 +1,4 @@
-# Cool a Meal
+# Cook a Meal
 Use [pddlstream](https://github.com/caelan/pddlstream) as the planning engine to cook a meal
 
 ## Settings
