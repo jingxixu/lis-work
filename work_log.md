@@ -11,7 +11,7 @@ __May 28th - June 1st__
 
 ## Week 1
 __June 4th__
-- [X] write a script to sample functions from gaussian process [link](https://github.com/jingxixu/lis-work/tree/master/gaussian_process)
+- [X] write a script to sample functions from gaussian process ([link](https://github.com/jingxixu/lis-work/tree/master/gaussian_process))
 
 __June 5th__
-- [ ] finish the paper [Additive Gaussian Process](https://arxiv.org/abs/1112.4394)
+- [X] finish the paper [Additive Gaussian Process](https://arxiv.org/abs/1112.4394)
