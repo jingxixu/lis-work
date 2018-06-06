@@ -20,3 +20,7 @@ __June 5th__
 <img src="https://github.com/jingxixu/lis-work/blob/master/imgs/true.png" height="190"> &emsp;
 <img src="https://github.com/jingxixu/lis-work/blob/master/imgs/ard_rbf.png" height="190"> &emsp;
 <img src="https://github.com/jingxixu/lis-work/blob/master/imgs/additive_gp_sythetic.png" height="190"> &emsp;
+
+__June 6th__
+- [ ] finish [Robot Academy](https://github.com/Learning-and-Intelligent-Systems/lis_pr2_pkg/wiki/Robot-Academy) classes
+- [ ] understand how to generate simple primitives using stream generator in pddl, e.g. push
