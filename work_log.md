@@ -15,3 +15,8 @@ __June 4th__
 
 __June 5th__
 - [X] finish the paper [Additive Gaussian Process](https://arxiv.org/abs/1112.4394)
+- [X] reimplement the above paper's experiment on toy synthetic data and obtain similar results ([link](https://github.com/jingxixu/lis-work/blob/master/additive-gps/sythetic_demo.ipynb))
+
+<img src="https://github.com/jingxixu/lis-work/blob/master/imgs/true.png" height="190"> &emsp;
+<img src="https://github.com/jingxixu/lis-work/blob/master/imgs/ard_rbf.png" height="190"> &emsp;
+<img src="https://github.com/jingxixu/lis-work/blob/master/imgs/additive_gp_sythetic.png" height="190"> &emsp;
