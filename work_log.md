@@ -22,5 +22,9 @@ __June 5th__
 <img src="https://github.com/jingxixu/lis-work/blob/master/imgs/additive_gp_sythetic.png" height="190"> &emsp;
 
 __June 6th__
-- [ ] finish [Robot Academy](https://github.com/Learning-and-Intelligent-Systems/lis_pr2_pkg/wiki/Robot-Academy) classes
-- [ ] understand how to generate simple primitives using stream generator in pddl, e.g. push
+- [X] with the help of Caelan, make all pybullet examples at [pddlstream](https://github.com/caelan/pddlstream) runnable by fixing breaking commit
+- [X] finish [Robot Academy](https://github.com/Learning-and-Intelligent-Systems/lis_pr2_pkg/wiki/Robot-Academy) class 1 ([code](https://github.com/jingxixu/lis-work/blob/master/robot_accademy/dance_jingxi.py), [video](https://youtu.be/N1F5F4eFNtI))
+
+<p align="center">
+  <img align="middle" src="https://img.youtube.com/vi/N1F5F4eFNtI/0.jpg" height="180">(https://youtu.be/N1F5F4eFNtI)
+</p>
