@@ -11,7 +11,7 @@ __May 28th - June 1st__
 
 ## Week 1
 __June 4th__
-- [X] write a script to sample functions from gaussian process ([link](https://github.com/jingxixu/lis-work/tree/master/gaussian_process))
+- [X] write a script to sample functions from gaussian process ([code](https://github.com/jingxixu/lis-work/tree/master/gaussian_process))
 
 __June 5th__
 - [X] finish the paper [Additive Gaussian Process](https://arxiv.org/abs/1112.4394)
@@ -25,6 +25,8 @@ __June 6th__
 - [X] with the help of Caelan, make all pybullet examples at [pddlstream](https://github.com/caelan/pddlstream) runnable by fixing breaking commit
 - [X] finish [Robot Academy](https://github.com/Learning-and-Intelligent-Systems/lis_pr2_pkg/wiki/Robot-Academy) class 1 ([code](https://github.com/jingxixu/lis-work/blob/master/robot_accademy/dance_jingxi.py), [video](https://youtu.be/N1F5F4eFNtI))
 
+<a href="https://youtu.be/N1F5F4eFNtI">
 <p align="center">
-  [<img align="middle" src="https://img.youtube.com/vi/N1F5F4eFNtI/0.jpg" height="180">](https://youtu.be/N1F5F4eFNtI)
+  <img src="https://img.youtube.com/vi/N1F5F4eFNtI/0.jpg" height="180">
 </p>
+</a>
