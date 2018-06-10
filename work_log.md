@@ -23,10 +23,19 @@ __June 5th__
 
 __June 6th__
 - [X] with the help of Caelan, make all pybullet examples at [pddlstream](https://github.com/caelan/pddlstream) runnable by fixing breaking commit
-- [X] finish [Robot Academy](https://github.com/Learning-and-Intelligent-Systems/lis_pr2_pkg/wiki/Robot-Academy) class 1 ([code](https://github.com/jingxixu/lis-work/blob/master/robot_accademy/dance_jingxi.py), [video](https://youtu.be/N1F5F4eFNtI))
+- [X] finish [Robot Academy](https://github.com/Learning-and-Intelligent-Systems/lis_pr2_pkg/wiki/Robot-Academy) class 1 ([code](https://github.com/jingxixu/lis-work/blob/master/robot_accademy), [video](https://youtu.be/N1F5F4eFNtI))
 
 <a href="https://youtu.be/N1F5F4eFNtI">
 <p align="center">
   <img src="https://img.youtube.com/vi/N1F5F4eFNtI/0.jpg" height="179">
+</p>
+</a>
+
+__June 7th__
+- [X] finish [Robot Academy](https://github.com/Learning-and-Intelligent-Systems/lis_pr2_pkg/wiki/Robot-Academy) class 2, class 3 and class 5 ([code](https://github.com/jingxixu/lis-work/blob/master/robot_accademy), [video](https://youtu.be/5Gty81elUDA))
+
+<a href="https://youtu.be/5Gty81elUDA">
+<p align="center">
+  <img src="https://img.youtube.com/vi/5Gty81elUDA/0.jpg" height="179">
 </p>
 </a>
