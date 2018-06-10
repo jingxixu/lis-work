@@ -13,6 +13,10 @@ __May 28th - June 1st__
 __June 4th__
 - [X] write a script to sample functions from gaussian process ([code](https://github.com/jingxixu/lis-work/tree/master/gaussian_process))
 
+<img src="https://github.com/jingxixu/lis-work/blob/master/gaussian_process/imgs/prior.png" height="190"> &emsp;
+<img src="https://github.com/jingxixu/lis-work/blob/master/gaussian_process/imgs/posterior.png" height="190"> &emsp;
+<img src="https://github.com/jingxixu/lis-work/blob/master/gaussian_process/imgs/true_func.png" height="190"> &emsp;
+
 __June 5th__
 - [X] finish the paper [Additive Gaussian Process](https://arxiv.org/abs/1112.4394)
 - [X] reimplement the above paper's experiment on toy synthetic data and obtain similar results ([code](https://github.com/jingxixu/lis-work/blob/master/additive-gps/sythetic_demo.ipynb))
