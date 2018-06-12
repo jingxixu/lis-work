@@ -1,6 +1,17 @@
 # RRT and Bi-directional RRT
 Implementation of Rapidly-exploring random tree (RRT) algorithm and Bi-directionay RRT algorithm from scratch (without any collision checking packages), and visualize with matplotlib.
 
+## Results
+- RRT
+<p align="center">
+  <img src="https://github.com/jingxixu/lis-work/blob/master/biRRT/imgs/rrt.gif">
+</p>
+
+- biRRT
+<p align="center">
+  <img src="https://github.com/jingxixu/lis-work/blob/master/biRRT/imgs/birrt.gif">
+</p>
+
 ## Usage
 Run the following command for detailed usage information
 
@@ -21,18 +32,6 @@ __Command Line Parameters__
 - `-b` is an optional parameter indicating whether bi-directional RRT is used. Use normal RRT by default.
 
 This program can handle polygons of __ANY__ shape (not necessarily axis-parallel).
-
-
-## Results
-- RRT
-<p align="center">
-  <img src="https://github.com/jingxixu/lis-work/blob/master/biRRT/imgs/rrt.gif" height="179">
-</p>
-
-- biRRT
-<p align="center">
-  <img src="https://github.com/jingxixu/lis-work/blob/master/biRRT/imgs/birrt.gif" height="179">
-</p>
 
 
 ## Assumption
