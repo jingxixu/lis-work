@@ -1,5 +1,5 @@
 # RRT and Bi-directional RRT
-Implementation of Rapidly-exploring random tree (RRT) algorithm and Bi-directionay RRT algorithm from scratch (without any collision checking packages), and visualize with matplotlib.
+Implementation of Rapidly-exploring random tree (RRT) algorithm and Bi-directionay RRT algorithm __from scratch__ (without any collision checking packages), and visualize with matplotlib.
 
 Tested with `Python 3.6.4`, `matplotlib 2.1.2` and `numpy 1.14.2`.
 
