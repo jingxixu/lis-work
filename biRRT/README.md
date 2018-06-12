@@ -10,27 +10,29 @@ __RRT__
 
 ```python rrt.py 40  world_obstacles.txt start_goal.txt ```
 
-__BiRRT__
+__biRRT__
 
 ```python rrt.py 40  world_obstacles.txt start_goal.txt -b ```
 
 __Command Line Parameters__
 - `40` is the distance we want to take for each step; 
-- `world_obstacles.txt` is the name of the text file containing  information about the obstacles in the map; ```start_goal.txt``` is the name of the text file containing information about the start and goal points; 
-- `-b` is an optional parameter indicating whether RRT bi-directional is used. Use normal RRT by default.
+- `world_obstacles.txt` is the name of the text file containing  information about the obstacles in the map; 
+- `start_goal.txt` is the name of the text file containing information about the start and goal points; 
+- `-b` is an optional parameter indicating whether bi-directional RRT is used. Use normal RRT by default.
+
+This program can handle polygons of __ANY__ shape (not necessarily axis-parallel).
 
 
 ## Results
 - RRT
-
-```python rrt.py 40  world_obstacles.txt start_goal.txt ```
+<p align="center">
+  <img src="https://github.com/jingxixu/lis-work/blob/master/biRRT/imgs/rrt.gif" height="179">
+</p>
 
 - biRRT
-
-```python rrt.py 40  world_obstacles.txt start_goal.txt -b ```
-
-
-Our program can handle polygons of __ANY__ shape (not necessarily axis-parallel).
+<p align="center">
+  <img src="https://github.com/jingxixu/lis-work/blob/master/biRRT/imgs/birrt.gif" height="179">
+</p>
 
 
 ## Assumption
