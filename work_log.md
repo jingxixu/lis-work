@@ -13,8 +13,12 @@ __May 28th - June 1st__
 __June 4th__
 - [X] write a script to sample functions from gaussian process ([code](https://github.com/jingxixu/lis-work/tree/master/gaussian_process))
 
+<img src="https://github.com/jingxixu/lis-work/blob/master/gaussian_process/imgs/prior.png" height="190"> &emsp;
+<img src="https://github.com/jingxixu/lis-work/blob/master/gaussian_process/imgs/posterior.png" height="190"> &emsp;
+<img src="https://github.com/jingxixu/lis-work/blob/master/gaussian_process/imgs/true_func.png" height="190"> &emsp;
+
 __June 5th__
-- [X] finish the paper [Additive Gaussian Process](https://arxiv.org/abs/1112.4394)
+- [X] read the paper [Additive Gaussian Process](https://arxiv.org/abs/1112.4394)
 - [X] reimplement the above paper's experiment on toy synthetic data and obtain similar results ([code](https://github.com/jingxixu/lis-work/blob/master/additive-gps/sythetic_demo.ipynb))
 
 <img src="https://github.com/jingxixu/lis-work/blob/master/imgs/true.png" height="190"> &emsp;
@@ -23,10 +27,21 @@ __June 5th__
 
 __June 6th__
 - [X] with the help of Caelan, make all pybullet examples at [pddlstream](https://github.com/caelan/pddlstream) runnable by fixing breaking commit
-- [X] finish [Robot Academy](https://github.com/Learning-and-Intelligent-Systems/lis_pr2_pkg/wiki/Robot-Academy) class 1 ([code](https://github.com/jingxixu/lis-work/blob/master/robot_accademy/dance_jingxi.py), [video](https://youtu.be/N1F5F4eFNtI))
+- [X] finish [Robot Academy](https://github.com/Learning-and-Intelligent-Systems/lis_pr2_pkg/wiki/Robot-Academy) class 1 ([code](https://github.com/jingxixu/lis-work/blob/master/robot_accademy), [video](https://youtu.be/N1F5F4eFNtI))
 
 <a href="https://youtu.be/N1F5F4eFNtI">
 <p align="center">
   <img src="https://img.youtube.com/vi/N1F5F4eFNtI/0.jpg" height="179">
 </p>
 </a>
+
+__June 7th__
+- [X] finish [Robot Academy](https://github.com/Learning-and-Intelligent-Systems/lis_pr2_pkg/wiki/Robot-Academy) class 2, class 3 and class 5 ([code](https://github.com/jingxixu/lis-work/blob/master/robot_accademy), [video](https://youtu.be/5Gty81elUDA))
+
+<a href="https://youtu.be/5Gty81elUDA">
+<p align="center">
+  <img src="https://img.youtube.com/vi/5Gty81elUDA/0.jpg" height="179">
+</p>
+</a>
+
+test
