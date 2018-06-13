@@ -49,8 +49,8 @@ __June 11th - June 12th__
 - [X] implement RRT and biRRT with visualization ([code](https://github.com/jingxixu/lis-work/tree/master/biRRT))
 
 <p align="center">
-  <img src="https://github.com/jingxixu/lis-work/blob/master/biRRT/imgs/rrt.gif", height="270"> &emsp;
-  <img src="https://github.com/jingxixu/lis-work/blob/master/biRRT/imgs/birrt.gif", height="270">
+  <img src="https://github.com/jingxixu/lis-work/blob/master/biRRT/imgs/rrt.gif", height="290"> &emsp;
+  <img src="https://github.com/jingxixu/lis-work/blob/master/biRRT/imgs/birrt.gif", height="290">
 </p>
 
 - [X] create kuka robot, PR2 and some objects in pybullet
