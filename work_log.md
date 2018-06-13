@@ -31,7 +31,7 @@ __June 6th__
 
 <a href="https://youtu.be/N1F5F4eFNtI">
 <p align="center">
-  <img src="https://img.youtube.com/vi/N1F5F4eFNtI/0.jpg" height="179">
+  <img src="https://img.youtube.com/vi/N1F5F4eFNtI/0.jpg" height="350">
 </p>
 </a>
 
@@ -40,7 +40,7 @@ __June 7th - June 9th__
 
 <a href="https://youtu.be/5Gty81elUDA">
 <p align="center">
-  <img src="https://img.youtube.com/vi/5Gty81elUDA/0.jpg" height="179">
+  <img src="https://img.youtube.com/vi/5Gty81elUDA/0.jpg" height="350">
 </p>
 </a>
 
