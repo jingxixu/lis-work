@@ -35,7 +35,7 @@ __June 6th__
 </p>
 </a>
 
-__June 7th__
+__June 7th - June 8th__
 - [X] finish [Robot Academy](https://github.com/Learning-and-Intelligent-Systems/lis_pr2_pkg/wiki/Robot-Academy) class 2, class 3 and class 5 ([code](https://github.com/jingxixu/lis-work/blob/master/robot_accademy), [video](https://youtu.be/5Gty81elUDA))
 
 <a href="https://youtu.be/5Gty81elUDA">
@@ -44,4 +44,13 @@ __June 7th__
 </p>
 </a>
 
-test
+## Week 2
+__June 11th - June 12th__
+- [X] implement RRT and biRRT with visualization ([code](https://github.com/jingxixu/lis-work/tree/master/biRRT))
+<p align="center">
+  <img src="https://github.com/jingxixu/lis-work/blob/master/biRRT/imgs/rrt.gif", height="270"> &emsp;
+  <img src="https://github.com/jingxixu/lis-work/blob/master/biRRT/imgs/birrt.gif", height="270">
+</p>
+- [X] create kuka robot, PR2 and some objects in pybullet
+- [X] manage to move the drake kuka arm to a certain position in space using the pybullet IK solver
+
