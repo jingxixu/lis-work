@@ -64,9 +64,9 @@ __June 13th - June 15th__
   <img src="https://github.com/jingxixu/lis-work/blob/master/gifs/execute.gif", height="200">
 </p>
 
-- [X] compare my RRT implementation with Caelan's RRT and biRRT in the following created scenario. 
+- [X] compare my RRT implementation with Caelan's RRT in the following created scenario. 
   - Caelan's RRT is more efficient in difficult motion planning problems because it keeps extending towards the sample
-  step by step until it collides, while my RRT only makes a small step toward each sample
+  step by step until it collides, while my RRT only makes a small step towards the sample on each iteration
   - However, even Caelan's RRT can only find a good path (on the right) approximately one out of 20 experiments. It normally
   returns a bad path on the left, and takes a long time.
   - Should not spend time on improving the efficiency and performance of RRT, just use biRRT.
