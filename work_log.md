@@ -10,7 +10,7 @@ Work Notes at Learning and Intelligent Systems Lab, MIT
   - [June 4th](june-4th)
   - [June 5th](june-5th)
   - [June 6th](june-6th)
-  - [June 7th - June 9th](June-7th---June-9th)
+  - [June 7th - June 8th](June-7th---June-9th)
 - [Week 2](#week-2)
 - [Week 3](#week-3)
 <!-- /TOC -->
@@ -54,7 +54,7 @@ __June 6th__
 </p>
 </a>
 
-__June 7th - June 9th__
+__June 7th - June 8th__
 - [X] finish [Robot Academy](https://github.com/Learning-and-Intelligent-Systems/lis_pr2_pkg/wiki/Robot-Academy) class 2, class 3 and class 5 ([code](robot_accademy), [video](https://youtu.be/5Gty81elUDA))
 
 <a href="https://youtu.be/5Gty81elUDA">
