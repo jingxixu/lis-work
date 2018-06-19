@@ -57,7 +57,6 @@ __June 11th - June 12th__
 - [X] manage to set the drake kuka end-effector to a certain position in space using the pybullet IK solver
 
 __June 13th - June 15th__
-- [X] finish homework 3 ([pdf]())
 - [X] implement an RRT in the configuration space in pybullet
 
 <p align="center">
@@ -76,3 +75,7 @@ __June 13th - June 15th__
   <img src="https://github.com/jingxixu/lis-work/blob/master/gifs/long.gif", height="200"> &emsp;
   <img src="https://github.com/jingxixu/lis-work/blob/master/gifs/short.gif", height="200">
 </p>
+
+## Week 3
+__June 18th__
+- [X] finish homework 3 ([pdf](https://github.com/jingxixu/lis-work/blob/master/proof/proof.pdf))
