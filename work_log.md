@@ -36,7 +36,7 @@ __June 6th__
 </a>
 
 __June 7th - June 9th__
-- [X] finish [Robot Academy](https://github.com/Learning-and-Intelligent-Systems/lis_pr2_pkg/wiki/Robot-Academy) class 2, class 3 and class 5 ([code](https://github.com/jingxixu/lis-work/blob/master/robot_accademy), [video](https://youtu.be/5Gty81elUDA))
+- [X] finish [Robot Academy](https://github.com/Learning-and-Intelligent-Systems/lis_pr2_pkg/wiki/Robot-Academy) class 2, class 3 and class 5 ([code](robot_accademy), [video](https://youtu.be/5Gty81elUDA))
 
 <a href="https://youtu.be/5Gty81elUDA">
 <p align="center">
@@ -46,11 +46,11 @@ __June 7th - June 9th__
 
 # Week 2
 __June 11th - June 12th__
-- [X] implement RRT and biRRT with visualization ([code](https://github.com/jingxixu/lis-work/tree/master/biRRT))
+- [X] implement RRT and biRRT with visualization ([code](biRRT))
 
 <p align="center">
-  <img src="https://github.com/jingxixu/lis-work/blob/master/biRRT/imgs/rrt.gif", height="290"> &emsp;
-  <img src="https://github.com/jingxixu/lis-work/blob/master/biRRT/imgs/birrt.gif", height="290">
+  <img src="biRRT/imgs/rrt.gif", height="290"> &emsp;
+  <img src="biRRT/imgs/birrt.gif", height="290">
 </p>
 
 - [X] create kuka robot, PR2 and some objects in pybullet
@@ -60,8 +60,8 @@ __June 13th - June 15th__
 - [X] implement an RRT in the configuration space in pybullet
 
 <p align="center">
-  <img src="https://github.com/jingxixu/lis-work/blob/master/gifs/build_tree.gif", height="200"> &emsp;
-  <img src="https://github.com/jingxixu/lis-work/blob/master/gifs/execute.gif", height="200">
+  <img src="gifs/build_tree.gif", height="200"> &emsp;
+  <img src="gifs/execute.gif", height="200">
 </p>
 
 - [X] compare my RRT implementation with Caelan's RRT in the following created scenario. 
@@ -72,13 +72,13 @@ __June 13th - June 15th__
   - Should not spend time on improving the efficiency and performance of RRT, just use biRRT.
 
 <p align="center">
-  <img src="https://github.com/jingxixu/lis-work/blob/master/gifs/long.gif", height="200"> &emsp;
-  <img src="https://github.com/jingxixu/lis-work/blob/master/gifs/short.gif", height="200">
+  <img src="gifs/long.gif", height="200"> &emsp;
+  <img src="gifs/short.gif", height="200">
 </p>
 
 # Week 3
 __June 18th__
-- [X] finish homework 3 ([pdf](https://github.com/jingxixu/lis-work/blob/master/proof/proof.pdf))
+- [X] finish homework 3 ([pdf](proof/proof.pdf))
 - [X] implement my own distance function - _workspace-drive configuration space distance_. Given 2 configurations, first calculate the corresponding end-effector positions in workspace and then use the euclidean diatance between 2 positions as the distance of the two configurations. Run RRT using each distance metric for 10 times (with max iteration 200) and the results are as follows
   - Workspace-drive configuration space distance
   
@@ -94,6 +94,6 @@ __June 18th__
     
   - demo of how fast RRT with new distance metric can find a path.
 <p align="center">
-  <img src="https://github.com/jingxixu/lis-work/blob/master/gifs/my_distance.gif", height="200"> &emsp;
-  <img src="https://github.com/jingxixu/lis-work/blob/master/gifs/execute_my_dist.gif", height="200">
+  <img src="gifs/my_distance.gif", height="200"> &emsp;
+  <img src="gifs/execute_my_dist.gif", height="200">
 </p>
