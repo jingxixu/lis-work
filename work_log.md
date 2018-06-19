@@ -1,4 +1,4 @@
-## Week 0
+# Week 0
 __May 28th - June 1st__ 
 - [X] use an existing domain file from [pddlstream](https://github.com/caelan/pddlstream) to solve Sussman anomaly ([code](https://github.com/jingxixu/lis-work/tree/master/pddl_examples/sussman_anomaly))
 - [X] create a planning problem of cooking a meal and solve it use the [pddlstream](https://github.com/caelan/pddlstream) ([code](https://github.com/jingxixu/lis-work/tree/master/pddl_examples/cook_meal))
@@ -9,7 +9,7 @@ __May 28th - June 1st__
   - It might be better to think about the maximum entropy of a combination of multiple parts. Because if one kind of particle has a dominant 
   proportion, then the score of stir defined above will always be low, but it does not mean we do not stir well.
 
-## Week 1
+# Week 1
 __June 4th__
 - [X] write a script to sample functions from gaussian process ([code](https://github.com/jingxixu/lis-work/tree/master/gaussian_process))
 
@@ -44,7 +44,7 @@ __June 7th - June 9th__
 </p>
 </a>
 
-## Week 2
+# Week 2
 __June 11th - June 12th__
 - [X] implement RRT and biRRT with visualization ([code](https://github.com/jingxixu/lis-work/tree/master/biRRT))
 
@@ -76,7 +76,7 @@ __June 13th - June 15th__
   <img src="https://github.com/jingxixu/lis-work/blob/master/gifs/short.gif", height="200">
 </p>
 
-## Week 3
+# Week 3
 __June 18th__
 - [X] finish homework 3 ([pdf](https://github.com/jingxixu/lis-work/blob/master/proof/proof.pdf))
 - [X] implement my own distance function - _workspace-drive configuration space distance_. Given 2 configurations, first calculate the corresponding end-effector positions in workspace and then use the euclidean diatance between 2 positions as the distance of the two configurations. Run RRT using each distance metric for 10 times (with max iteration 200) and the results are as follows
@@ -92,6 +92,7 @@ __June 18th__
     |:-------:|:----:|:----:|:----:|:----:|:----:|:----:|:-----:|:-----:|:----:|:----:|
     | time(s) | fail | fail | fail | fail | fail | fail | 37.36 | 19.30 | fail | fail |
     
+  - demo of how fast RRT with new distance can find a path.
 <p align="center">
   <img src="https://github.com/jingxixu/lis-work/blob/master/gifs/my_distance.gif", height="200"> &emsp;
   <img src="https://github.com/jingxixu/lis-work/blob/master/gifs/execute_my_dist.gif", height="200">
