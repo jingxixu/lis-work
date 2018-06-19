@@ -64,7 +64,7 @@ __June 13th - June 15th__
   <img src="gifs/execute.gif", height="200">
 </p>
 
-- [X] compare my RRT implementation with Caelan's RRT in the following created scenario. 
+- [X] compare my RRT implementation with Caelan's RRT in the following created scenario ([code](https://github.com/jingxixu/Kitchen3D))
   - Caelan's RRT is more efficient in difficult motion planning problems because it keeps extending towards the sample
   step by step until it collides, while my RRT only makes a small step towards the sample on each iteration
   - However, even Caelan's RRT can only find a good path (on the right) approximately one out of 20 experiments. It normally
@@ -79,7 +79,7 @@ __June 13th - June 15th__
 # Week 3
 __June 18th__
 - [X] finish homework 3 ([pdf](proof/proof.pdf))
-- [X] implement my own distance function - _workspace-drive configuration space distance_. Given 2 configurations, first calculate the corresponding end-effector positions in workspace and then use the euclidean diatance between 2 positions as the distance of the two configurations. Run RRT using each distance metric for 10 times (with max iteration 200) and the results are as follows
+- [X] implement my own distance function - _workspace-drive configuration space distance_. Given 2 configurations, first calculate the corresponding end-effector positions in workspace and then use the euclidean diatance between 2 positions as the distance of the two configurations. Run RRT using each distance metric for 10 times (with max iteration 200) and the results are as follows ([code](https://github.com/jingxixu/Kitchen3D))
   - Workspace-drive configuration space distance
   
     | exp no. |   1   |   2  |   3   |   4   |   5   |   6  |   7   |   8   |   9  |   10   |
