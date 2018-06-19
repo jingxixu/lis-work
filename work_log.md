@@ -91,4 +91,8 @@ __June 18th__
     | exp no. |   1  |   2  |   3  |   4  |   5  |   6  |   7   |   8   |   9  |  10  |
     |:-------:|:----:|:----:|:----:|:----:|:----:|:----:|:-----:|:-----:|:----:|:----:|
     | time(s) | fail | fail | fail | fail | fail | fail | 37.36 | 19.30 | fail | fail |
-- [X] metric really matters
+    
+<p align="center">
+  <img src="https://github.com/jingxixu/lis-work/blob/master/gifs/my_distance.gif", height="200"> &emsp;
+  <img src="https://github.com/jingxixu/lis-work/blob/master/gifs/execute_my_dist.gif", height="200">
+</p>
