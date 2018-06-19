@@ -21,9 +21,9 @@ __June 5th__
 - [X] read the paper [Additive Gaussian Process](https://arxiv.org/abs/1112.4394)
 - [X] reimplement the above paper's experiment on toy synthetic data and obtain similar results ([code](https://github.com/jingxixu/lis-work/blob/master/additive-gps/sythetic_demo.ipynb))
 
-<img src="https://github.com/jingxixu/lis-work/blob/master/imgs/true.png" height="190"> &emsp;
-<img src="https://github.com/jingxixu/lis-work/blob/master/imgs/ard_rbf.png" height="190"> &emsp;
-<img src="https://github.com/jingxixu/lis-work/blob/master/imgs/additive_gp_sythetic.png" height="190"> &emsp;
+<img src="https://github.com/jingxixu/lis-work/tree/master/additive-gps/imgs/true.png" height="190"> &emsp;
+<img src="https://github.com/jingxixu/lis-work/tree/master/additive-gps/imgs/ard_rbf.png" height="190"> &emsp;
+<img src="https://github.com/jingxixu/lis-work/tree/master/additive-gps/imgs/additive_gp_sythetic.png" height="190"> &emsp;
 
 __June 6th__
 - [X] with the help of Caelan, make all pybullet examples at [pddlstream](https://github.com/caelan/pddlstream) runnable by fixing breaking commit
@@ -56,3 +56,23 @@ __June 11th - June 12th__
 - [X] create kuka robot, PR2 and some objects in pybullet
 - [X] manage to set the drake kuka end-effector to a certain position in space using the pybullet IK solver
 
+__June 13th - June 15th__
+- [X] finish homework 3 ([pdf]())
+- [X] implement an RRT in the configuration space in pybullet
+
+<p align="center">
+  <img src="https://github.com/jingxixu/lis-work/blob/master/gifs/build_tree.gif", height="200"> &emsp;
+  <img src="https://github.com/jingxixu/lis-work/blob/master/gifs/execute.gif", height="200">
+</p>
+
+- [X] compare my RRT implementation with Caelan's RRT and biRRT in the following created scenario. 
+  - Caelan's RRT is more efficient in difficult motion planning problems because it keeps extending towards the sample
+  step by step until it collides, while my RRT only makes a small step toward each sample
+  - However, even Caelan's RRT can only find a good path (on the right) approximately one out of 20 experiments. It normally
+  returns a bad path on the left, and takes a long time.
+  - Should not spend time on improving the efficiency and performance of RRT, just use biRRT.
+
+<p align="center">
+  <img src="https://github.com/jingxixu/lis-work/blob/master/gifs/long.gif", height="200"> &emsp;
+  <img src="https://github.com/jingxixu/lis-work/blob/master/gifs/short.gif", height="200">
+</p>
