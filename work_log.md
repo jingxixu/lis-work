@@ -1,3 +1,22 @@
+Work Notes at Learning and Intelligent Systems Lab, MIT
+
+# Table of Contents
+
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+- [Table of Contents](table-of-contents)
+- [Week 0](#week-0) 
+  - [May 28th - June 1st](May-28th-June-1st)
+- [Week 1](#week-1)
+  - [June 4th](june-4th)
+  - [June 5th](june-5th)
+  - [June 6th](june-6th)
+  - [June 7th - June 9th](June-7th---June-9th)
+- [Week 2](#week-2)
+- [Week 3](#week-3)
+<!-- /TOC -->
+
+---
+
 # Week 0
 __May 28th - June 1st__ 
 - [X] use an existing domain file from [pddlstream](https://github.com/caelan/pddlstream) to solve Sussman anomaly ([code](pddl_examples/sussman_anomaly))
