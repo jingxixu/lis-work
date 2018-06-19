@@ -79,15 +79,16 @@ __June 13th - June 15th__
 ## Week 3
 __June 18th__
 - [X] finish homework 3 ([pdf](https://github.com/jingxixu/lis-work/blob/master/proof/proof.pdf))
-- [X] implement my own distance function - workspace-drive configuration space distance. Given 2 configurations, first calculate the corresponding endeffector positions in workspace and then use the euclidean diatance between 2 positions as the distance of the two configurations. Run RRT using each distance metric for 10 times and the results are as follows
+- [X] implement my own distance function - _workspace-drive configuration space distance_. Given 2 configurations, first calculate the corresponding end-effector positions in workspace and then use the euclidean diatance between 2 positions as the distance of the two configurations. Run RRT using each distance metric for 10 times (with max iteration 200) and the results are as follows
   - Workspace-drive configuration space distance
   
     | exp no. |   1   |   2  |   3   |   4   |   5   |   6  |   7   |   8   |   9  |   10   |
-    |:-------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+    |:-------:|:-----:|:----:|:-----:|:-----:|:-----:|:----:|:-----:|:-----:|:----:|:------:|
     | time(s) | 91.47 | 5.09 | 12.79 | 48.91 | 10.20 | fail | 21.73 | 11.23 | 9.59 | 133.12 |
     
   - l2 norm in configuration space
   
     | exp no. |   1  |   2  |   3  |   4  |   5  |   6  |   7   |   8   |   9  |  10  |
-    |:-------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+    |:-------:|:----:|:----:|:----:|:----:|:----:|:----:|:-----:|:-----:|:----:|:----:|
     | time(s) | fail | fail | fail | fail | fail | fail | 37.36 | 19.30 | fail | fail |
+- [X] metric really matters
