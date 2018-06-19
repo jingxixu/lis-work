@@ -21,9 +21,9 @@ __June 5th__
 - [X] read the paper [Additive Gaussian Process](https://arxiv.org/abs/1112.4394)
 - [X] reimplement the above paper's experiment on toy synthetic data and obtain similar results ([code](https://github.com/jingxixu/lis-work/blob/master/additive-gps/sythetic_demo.ipynb))
 
-<img src="https://github.com/jingxixu/lis-work/tree/master/additive-gps/imgs/true.png" height="190"> &emsp;
-<img src="https://github.com/jingxixu/lis-work/tree/master/additive-gps/imgs/ard_rbf.png" height="190"> &emsp;
-<img src="https://github.com/jingxixu/lis-work/tree/master/additive-gps/imgs/additive_gp_sythetic.png" height="190"> &emsp;
+<img src="https://github.com/jingxixu/lis-work/blob/master/additive-gps/imgs/true.png" height="190"> &emsp;
+<img src="https://github.com/jingxixu/lis-work/blob/master/additive-gps/imgs/ard_rbf.png" height="190"> &emsp;
+<img src="https://github.com/jingxixu/lis-work/blob/master/additive-gps/imgs/additive_gp_sythetic.png" height="190"> &emsp;
 
 __June 6th__
 - [X] with the help of Caelan, make all pybullet examples at [pddlstream](https://github.com/caelan/pddlstream) runnable by fixing breaking commit
