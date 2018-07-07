@@ -136,7 +136,7 @@ __Notes__
 - There are still some indentation problems with Alex's PR2 simulation, but it is still runnable.
 
 
-## June 28 - June 29
+### June 28 June 29
 - [X] Continue literature review on PDDL/STRIP Stream.
   - read another RSS version of [Sample-Based Methods for Factored Task and Motion Planning](http://lis.csail.mit.edu/pubs/garrett-rss17.pdf). This is a shorter version.
 - [X] Write a simple task and motion planning problem in continuous space with a block robot, and solve it with [pddlstream](https://github.com/caelan/pddlstream).
@@ -144,5 +144,6 @@ __Notes__
 		<img src="imgs/pickandplace.png" height="200">
 		<img src="imgs/pickandplace-result.png">
 	</p>
+
 # Week 5
 ### July 2 - July 6
