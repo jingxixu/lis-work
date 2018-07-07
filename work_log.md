@@ -1,24 +1,28 @@
 Work Notes at Learning and Intelligent Systems Lab, MIT
 
 # Table of Contents
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Table of Contents](#table-of-contents)
-- [Week 0](#week-0) 
+- [Week 0](#week-0)
 - [Week 1](#week-1)
 - [Week 2](#week-2)
 - [Week 3](#week-3)
+- [Week 4](#week-4)
+- [Week 5](#week-5)
 
+<!-- /TOC -->
 ---
 
 # Week 0
-__May 28th - June 1st__ 
+__May 28th - June 1st__
 - [X] use an existing domain file from [pddlstream](https://github.com/caelan/pddlstream) to solve Sussman anomaly ([code](pddl_examples/sussman_anomaly))
 - [X] create a planning problem of cooking a meal and solve it use the [pddlstream](https://github.com/caelan/pddlstream) ([code](pddl_examples/cook_meal))
 - [X] add a score function to learn the stir action parameters for [Kitchen2D](https://github.com/JingxiXu/Kitchen2D)
-  - The score function is still very naive and is purely equivalent to the combined entropy of multiple partitions. The learning of stir action suffers 
-  from the fact that the particles start moving and mixing right after they are created. So the score function is changing even before stiring 
+  - The score function is still very naive and is purely equivalent to the combined entropy of multiple partitions. The learning of stir action suffers
+  from the fact that the particles start moving and mixing right after they are created. So the score function is changing even before stiring
   and the score is pretty high initially.
-  - It might be better to think about the maximum entropy of a combination of multiple parts. Because if one kind of particle has a dominant 
+  - It might be better to think about the maximum entropy of a combination of multiple parts. Because if one kind of particle has a dominant
   proportion, then the score of stir defined above will always be low, but it does not mean we do not stir well.
 
 # Week 1
@@ -93,19 +97,35 @@ __June 18th__
 - [X] finish homework 3 ([pdf](proof/proof.pdf))
 - [X] implement my own distance function. Given 2 configurations, first calculate the corresponding end-effector positions in workspace and then use the euclidean distance between 2 positions as the distance of the two configurations. Run RRT using each distance metric for 10 times (with max iteration 200) and the results are shown as follows ([code](https://github.com/jingxixu/Kitchen3D))
   - Euclidean distance in the workspace used as a metric for RRT algorithm
-  
+
     | exp no. |   1   |   2  |   3   |   4   |   5   |   6  |   7   |   8   |   9  |   10   |
     |:-------:|:-----:|:----:|:-----:|:-----:|:-----:|:----:|:-----:|:-----:|:----:|:------:|
     | time(s) | 91.47 | 5.09 | 12.79 | 48.91 | 10.20 | fail | 21.73 | 11.23 | 9.59 | 133.12 |
-    
+
   - Euclidean distance used in configuration space
-  
+
     | exp no. |   1  |   2  |   3  |   4  |   5  |   6  |   7   |   8   |   9  |  10  |
     |:-------:|:----:|:----:|:----:|:----:|:----:|:----:|:-----:|:-----:|:----:|:----:|
     | time(s) | fail | fail | fail | fail | fail | fail | 37.36 | 19.30 | fail | fail |
-    
+
   - demo of how fast RRT with new distance metric can find a path.
 <p align="center">
   <img src="gifs/my_distance.gif", height="200"> &emsp;
   <img src="gifs/execute_my_dist.gif", height="200">
 </p>
+
+__June 19 - June 22__
+- [X] Literature review on PDDL/STRIP Stream. Read Caelan's paper [Sampling-Based Methods for Factored Task and Motion Planning](https://arxiv.org/abs/1801.00680) (arXiv version)
+- [X] Create a new work space on Ariadne and manage to run Caelan's [mudfish](https://github.mit.edu/caelan/mudfish) code, while using Nishad's virtual environment for python dependencies.
+- [X] Read and try to understand [mudfish](https://github.mit.edu/caelan/mudfish) code
+  - goal is to figure out where to access belief information about the world and how mudfish uses those perception information to develop reactive motions
+
+# Week 4
+__June 25 - June 27__
+- [X] Help Kevin on the PR2 simulation in pybullet to fix the penetration problems
+  - the solution to the penetration problem is to change the properties of block (specifically the `softness` property)
+
+__June 28 - June 29__
+
+# Week 5
+__July 2 - July 6__
