@@ -9,7 +9,10 @@ Work Notes at Learning and Intelligent Systems Lab, MIT
 - [Week 2](#week-2)
 - [Week 3](#week-3)
 - [Week 4](#week-4)
+		- [June 25 - June 27](#june-25-june-27)
+		- [June 28 - June 29](#june-28-june-29)
 - [Week 5](#week-5)
+		- [July 2 - July 6](#july-2-july-6)
 
 <!-- /TOC -->
 ---
@@ -121,11 +124,24 @@ __June 19 - June 22__
   - goal is to figure out where to access belief information about the world and how mudfish uses those perception information to develop reactive motions
 
 # Week 4
-__June 25 - June 27__
+### June 25 - June 27
 - [X] Help Kevin on the PR2 simulation in pybullet to fix the penetration problems
   - the solution to the penetration problem is to change the properties of block (specifically the `softness` property)
+- [X] Manage to install pybullet with python2. The fix is [here](https://github.com/dmlc/xgboost/issues/1945#issuecomment-290606179)
+- [X] Manage to run Alex/Kevin's PR2 simulation code with python3
 
-__June 28 - June 29__
+
+__Notes__
+- Kevin has updated my [Kitchen3D](https://github.com/jingxixu/Kitchen3D) repo to include floating gripper learning push experiments.
+- There are still some indentation problems with Alex's PR2 simulation, but it is still runnable.
+
+
+### June 28 - June 29
+- [X] Continue literature review on PDDL/STRIP Stream.
+  - read another RSS version of [Sample-Based Methods for Factored Task and Motion Planning](http://lis.csail.mit.edu/pubs/garrett-rss17.pdf). This is a shorter version.
+- [X] Write a simple task and motion planning problem in continuous space with a block robot, and solve it with [pddlstream](https://github.com/caelan/pddlstream).
+![](imgs/pickandplace.png)
+![](imgs/pickandplace-result.png)
 
 # Week 5
-__July 2 - July 6__
+### July 2 - July 6
