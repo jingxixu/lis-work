@@ -9,10 +9,10 @@ Work Notes at Learning and Intelligent Systems Lab, MIT
 - [Week 2](#week-2)
 - [Week 3](#week-3)
 - [Week 4](#week-4)
-		- [June 25 - June 27](#june-25-june-27)
-		- [June 28 - June 29](#june-28-june-29)
+	- [June 25 - June 27](#june-25-june-27)
+	- [June 28 - June 29](#june-28-june-29)
 - [Week 5](#week-5)
-		- [July 2 - July 6](#july-2-july-6)
+	- [July 2 - July 6](#july-2-july-6)
 
 <!-- /TOC -->
 ---
