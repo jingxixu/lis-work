@@ -22,6 +22,9 @@ Work Notes at Learning and Intelligent Systems Lab, MIT
 	- [June 28 to June 29](#june-28-to-june-29)
 - [Week 5](#week-5)
 	- [July 2 to July 3](#july-2-to-july-3)
+	- [July 4 to July 6](#july-4-to-july-6)
+- [Week 6](#week-6)
+	- [July 9 - July 10](#july-9-july-10)
 
 <!-- /TOC -->
 ---
@@ -159,3 +162,21 @@ __Notes__
 - [X] Read [STRIPStream: Integrating Symbolic Planners and Blackbox Samplers](https://arxiv.org/abs/1802.08705)
   - an ealier version of this paper is [STRIPS Planning in Infinite Domains](https://arxiv.org/abs/1701.00287)
   - the previous two papers are more about discribing Factored Transition System (FTS) framework which can be regarded as another language for planning. FTS and STRIPStream shares some algorithms (incremental and focused) but are two different frameworks.
+
+## July 4 to July 6
+- [X] Construct a working version of pddlstream and integrate it with mudfish workspace
+  - Commit `87d6d68410d367ece4c8187b69120b16fd85885c` works well ([link](https://github.com/caelan/pddlstream/tree/87d6d68410d367ece4c8187b69120b16fd85885c))
+  - If I remove submodule Fastdownard and then push the compiled version to GitHub, it does not work properly after cloned to Ariadne. Have to build the submodule again on a new machine.
+- [X] Found import and refactoring problems in the newest commits of pddlstream. One submodule commit unfound. Ask Caelan to fix them, he creates a working branch [stable](https://github.com/caelan/pddlstream) as the default branch.
+  - Have not tested the stable branch yet
+- [X] Factor some predicates in mudfish to pddlstream
+
+# Week 6
+## July 9 - July 10
+- [X] Write `domain.pddl` and `abstract_domain.pddl` to translate stripstream to pddlstream.
+  - Still need to create `stream.pddl` for streams and functions, and then test them as a whole.
+- [X] Saved a plannable observation of the world under `~/.ros/` on Ariadne (demo) using pickle. Now I can test my planner by loading the saved `.pickle` files without running the robot at all.
+  - Maybe will be able to get away from ROS as well when testing planning.
+
+__Notes__
+- The planner gets stuck at the first iteration for solving the abstract problem in mudfish - literally stuck, no output to terminal, as long as I import anything from pddlstream package. Seems like a memory or space issue.
